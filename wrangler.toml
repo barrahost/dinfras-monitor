@@ -1,0 +1,12 @@
+name = "worldev-monitor"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Associer le domaine monitor.d-infras.africa
+# À configurer dans le dashboard Cloudflare après déploiement
+# Workers & Pages → worldev-monitor → Settings → Triggers → Custom Domains
+# Ajouter : monitor.d-infras.africa
+
+[observability]
+enabled = true
